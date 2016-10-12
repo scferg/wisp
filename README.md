@@ -1,7 +1,6 @@
 # Wisp
 
 [![GitHub version](https://badge.fury.io/gh/scferg%2Fwisp.svg)](https://badge.fury.io/gh/scferg%2Fwisp)
-
 [![Bower version](https://badge.fury.io/bo/wisp.svg)](https://badge.fury.io/bo/wisp)
 
 > Just another sass boilerplate, but one that doesn't make me angry.

@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/*** Colors ***/
+$gray:                          #666 !default;
+$gray-xxlight:                  lighten($gray, 55%) !default;
+$gray-xlight:                   lighten($gray, 45%) !default;
+$gray-light:                    lighten($gray, 15%) !default;
+$gray-dark:                     darken($gray, 10%) !default;
+$gray-xdark:                    darken($gray, 25%) !default;
+$gray-xxdark:                   darken($gray, 35%) !default;
+
+$error:                         #d22017 !default;
+$warning:                       #f9b729 !default;
+$note:                          #1e90ff !default;
+$success:                       #25d252 !default;
+
+$brand-primary:                 #2979ff !default;
+
+$social-facebook:               #3b5998 !default;
+$social-twitter:                #1da1f2 !default;
+$social-linkedin:               #0077b5 !default;
+$social-pinterest:              #bd081c !default;
+$social-github:                 #4078c0 !default;
+$social-google-plus:            #dd4b39 !default;
+$social-google:                 #4285f4 !default;
+
+
+
+
+/*** Grid ***/
+$grid-columns:                  12;
+$grid-gutter-horizontal:        20px !default;
+$grid-gutter-small-horizontal:  12px !default;
+$grid-gutter-large-horizontal:  50px !default;
+$grid-gutter-vertical:          30px !default;
+$grid-gutter-small-vertical:    20px !default;
+$grid-gutter-large-vertical:    70px !default;
+
+
+/*** Scaffolding ***/
+$edge-padding:                  10px !default;
+$wrapper-small:                 550px !default,
+$wrapper-medium:                750px !default,
+$wrapper-large:                 1100px !default,
+$wrapper-xlarge:                1440px !default
+$section-padding-desktop:       80px !default;
+$section-padding-mobile:        $section-padding-desktop * .5 !default;
+
+
+/*** Responsive Breakpoints ***/
+$breakpoints: (
+    small:                      400px !default,
+    medium:                     800px !default,
+    large:                      1100px !default
+);
+
+
+/*** Typography ***/
+$font-family-body:              sans-serif !default;
+$font-family-headline:          sans-serif !default;
+$font-size:                     16px !default;
+$text-color:                    $gray-dark !default;
+$letter-spacing:                .1em !default;
+$line-height:                   1.65 !default;
+$line-height-computed:          $font-size * $line-height;
+
+
+/*** Misc ***/
+$transition:                    .3s !default;

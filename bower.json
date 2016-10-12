@@ -1,0 +1,27 @@
+{
+  "name": "wisp",
+  "description": "Minimal Sass boilerplate with a flexible grid system",
+  "main": "scss/wisp.scss",
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "boilerplate",
+    "grid"
+  ],
+  "authors": [
+    "Sean Ferguson <scferg11@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/scferg/wisp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "include-media": "^1.4.8"
+  }
+}

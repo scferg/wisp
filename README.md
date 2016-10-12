@@ -13,7 +13,7 @@ There are a few minimally opinionated base styles, such as buttons and input fie
 
 ## Why?
 
-I found myself consistently displease with other boilerplate and frameworks that were overly complex, too opinionated, and their grid system sucked. I haven't done extensive research and comparison, but this system is what I've used on many projects, and it works well for me.
+I found myself consistently displeased with other boilerplate and frameworks that were overly complex, too opinionated, and their grid system sucked. I haven't done extensive research and comparison, but this system is what I've used on many projects, and it works well for me.
 
 ## How to install
 
@@ -152,6 +152,8 @@ You may overwrite these variables:
 - `$grid-gutter-large-horizontal` - Default `50px`
 - `$grid-gutter-large-vertical` - Default `70px`
 
+**Note:** By default, all grid columns become full-width at `<=medium`. See [Media queries](#media-queries).
+
 ### Typography
 
 Unopinionated typography styles are applied to `<body>`, headings, and links. Most of the variables are meant to be changed to match your theme:
@@ -286,6 +288,22 @@ There are many colors to get you started. You can overwrite any of these.
 - `$social-google` - Default `#4285f4`
 
 ![Color swatches](color-swatches.png?raw=true)
+
+### <a name="media-queries"></a>Media queries
+
+All media queries are handled by [include-media](https://github.com/eduardoboucas/include-media). You can take advantage of it throughout your theme.
+
+There are 3 breakpoints included:
+
+```scss
+$breakpoints: (
+    small:   400px,
+    medium:  800px,
+    large:   1100px
+);
+```
+
+Refer to [include-media](https://github.com/eduardoboucas/include-media)'s documentation on usage.
 
 ## What's included
 

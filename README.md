@@ -18,7 +18,13 @@ I found myself consistently displeased with other boilerplate and frameworks tha
 ## How to install
 
 ```bash
-bower install https://github.com/scferg/wisp.git
+bower install wisp
+```
+
+or
+
+```bash
+npm install https://github.com/scferg/wisp.git
 ```
 
 Include the file into your project using `@import`.

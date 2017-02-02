@@ -49,10 +49,10 @@ $section-padding-mobile:        $section-padding-desktop * .5 !default;
 
 /*** Responsive Breakpoints ***/
 $breakpoints: (
-    small:                      400px !default,
-    medium:                     800px !default,
-    large:                      1100px !default
-);
+    small: 400px,
+    medium: 800px,
+    large: 1100px
+) !default;
 
 
 /*** Typography ***/

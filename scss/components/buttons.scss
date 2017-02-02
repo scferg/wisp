@@ -5,13 +5,11 @@
 .button {
     display: inline-block;
     padding: 1em 3em;
+    @extend .button.is-bg-gray;
+    @extend .button.is-text-white;
     border: 2px solid transparent;
-    border-radius: 3px;
     outline: none;
-    font-size: .8em;
     text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: $letter-spacing;
     transition: background-color $transition, color $transition, transform .1s;
     cursor: pointer;
 

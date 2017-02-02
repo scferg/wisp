@@ -22,6 +22,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .color-primary { color: $brand-primary; }
+.color-white { color: #fff; }
+.color-grayxxlight { color: $gray-xxlight; }
+.color-grayxlight { color: $gray-xlight; }
+.color-graylight { color: $gray-light; }
+.color-gray { color: $gray; }
+.color-graydark { color: $gray-dark; }
+.color-grayxdark { color: $gray-xdark; }
+.color-error { color: $error; }
+.color-warning { color: $warning; }
+.color-note { color: $note; }
+.color-success { color: $success; }
 
 .text-left { text-align: left; }
 .text-center { text-align: center; }

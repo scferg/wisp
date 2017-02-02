@@ -8,7 +8,7 @@
     position: relative;
     border-radius: 3px;
     @extend %trim-margins;
-    line-height: $line-height: * .84;
+    line-height: $line-height * .84;
 
     // Icon
     &::before,

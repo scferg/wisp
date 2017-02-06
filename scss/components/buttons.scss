@@ -5,8 +5,6 @@
 .button {
     display: inline-block;
     padding: 1em 3em;
-    @extend .button.is-bg-gray;
-    @extend .button.is-text-white;
     border: 2px solid transparent;
     outline: none;
     text-decoration: none;

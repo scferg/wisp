@@ -1,6 +1,6 @@
 {
   "name": "wisp",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "Minimal Sass boilerplate with a flexible grid system",
   "main": "scss/wisp.scss",
   "keywords": [
